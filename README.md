@@ -4,77 +4,84 @@ Backend for the Research Project Tracker system. Provides REST APIs to manage us
 
 Features
 
-User registration and login with JWT
+    * User registration and login with JWT
 
-CRUD operations for Projects, Milestones, and Documents
+    * CRUD operations for Projects, Milestones, and Documents
 
-Role-based access: ADMIN, PI, MEMBER
+    * Role-based access: ADMIN, PI, MEMBER
 
-Upload and manage project documents
+    * Upload and manage project documents
+    
 
 Tech Stack
 
-Java 17 & Spring Boot
+    * Java 17 & Spring Boot
 
-Spring Data JPA / Hibernate
+    * Spring Data JPA / Hibernate
 
-Spring Security with JWT
+    * Spring Security with JWT
 
-H2 Database (default, can be switched)
+    * H2 Database (default, can be switched)
+
+    
 
 Getting Started
 
-Clone the repository
+    * Clone the repository
 
-git clone https://github.com/yourusername/research-project-tracker-backend.git
-cd research-project-tracker-backend
+    * git clone https://github.com/yourusername/research-project-tracker-backend.git
+    * cd research-project-tracker-backend
 
 
 Build and run
 
-mvn clean install
-mvn spring-boot:run
+    * mvn clean install
+    * mvn spring-boot:run
 
 
 Access the API
 
-http://localhost:8080/api
+      *http://localhost:8080/api
 
 API Endpoints
 
+
 Authentication
 
-POST /api/auth/signup
+     * POST /api/auth/signup
 
-POST /api/auth/login
+     * POST /api/auth/login
+     
 
 Projects
 
-GET /api/projects
+      * GET /api/projects
 
-POST /api/projects
+      * POST /api/projects
 
-PUT /api/projects/{id}
+      * PUT /api/projects/{id}
 
-DELETE /api/projects/{id}
+      * DELETE /api/projects/{id}
+      
 
 Milestones
 
-GET /api/projects/{id}/milestones
+      * GET /api/projects/{id}/milestones
 
-POST /api/projects/{id}/milestones
+      * POST /api/projects/{id}/milestones
 
-PUT /api/milestones/{id}
+      * PUT /api/milestones/{id}
 
-DELETE /api/milestones/{id}
+      * DELETE /api/milestones/{id}
+      
 
 Documents
 
-GET /api/projects/{id}/documents
+      * GET /api/projects/{id}/documents
 
-POST /api/projects/{id}/documents
+      * POST /api/projects/{id}/documents
 
-DELETE /api/documents/{id}
+      * DELETE /api/documents/{id}
 
 Notes
 
