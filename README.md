@@ -1,4 +1,4 @@
-Research Project Tracker - Backend
+# Research Project Tracker - Backend
 
 Backend for the Research Project Tracker system. Provides REST APIs to manage users, projects, milestones, and documents with JWT authentication and role-based access control.
 
